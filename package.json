@@ -1,0 +1,34 @@
+{
+  "name": "freddybot",
+  "version": "0.1.0",
+  "description": "Bot para freddy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sintcraft/freddybot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "sintcraft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sintcraft/freddybot/issues"
+  },
+  "homepage": "https://github.com/sintcraft/freddybot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^15.0.0",
+    "mongoose": "^6.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
